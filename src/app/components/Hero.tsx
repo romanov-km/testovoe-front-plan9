@@ -1,20 +1,9 @@
+import Section from './Section';
+
 export default function Hero() {
   return (
-    <section className="bg-night relative overflow-hidden">
-      {/* фон-видео */}
-      <video
-        className="absolute inset-0 h-full w-full object-cover opacity-20"
-        src="/1826127_Galaxy_Nebula_1280x720.mp4"
-        autoPlay
-        loop
-        muted
-        playsInline
-        data-video="0"
-      />
-
-      <div className="absolute inset-0 bg-[#100917]/70" />
-
-      <div className="relative z-10 flex flex-col gap-8 pt-[194px] pr-[364px] pb-[362px] pl-[146px] text-left">
+    <Section pt={194} pb={362} pl={146} pr={364}>
+      <div className="relative z-10 flex flex-col gap-8 text-left">
         <h1 className="font-playfair h-[231px] max-w-[930px] text-[90px] leading-[1.3] text-white">
           Company: The Future of Healing is Here
         </h1>
@@ -31,6 +20,6 @@ export default function Hero() {
           </button>
         </div>
       </div>
-    </section>
+    </Section>
   );
 }

@@ -7,7 +7,7 @@ export default {
       fontFamily: {
         sans: ['var(--font-geist-sans)'],
         mono: ['var(--font-geist-mono)'],
-        serif: ['var(--font-playfair-display)'],
+        playfair: ['var(--font-playfair-display)'],
         jost: ['var(--font-jost)'],
       },
       colors: {
