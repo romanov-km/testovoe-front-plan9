@@ -17,6 +17,15 @@
 /.next/
 /out/
 
+#husky
+.husky
+
+# prettier
+.prettierignore
+.prettierrc
+
+
+
 # production
 /build
 
