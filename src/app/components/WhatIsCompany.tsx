@@ -8,7 +8,7 @@ export default function WhatIsCompany() {
           What is Company?
         </h2>
 
-        <p className="font-jost max-w-[432px] text-[18px] leading-[130%] font-medium text-white/80">
+        <p className="font-jost w-[432px] text-[18px] leading-[130%] font-medium text-white/80">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu rhoncus ligula, dictum
           molestie neque. Nam vitae tempor mi. Suspendisse tincidunt
         </p>

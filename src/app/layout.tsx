@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono, Playfair_Display, Jost } from 'next/font/google';
 import './globals.css';
+import BackgroundVideo from './components/BackGroundVideo';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -22,6 +23,7 @@ const playfairDisplay = Playfair_Display({
 const jost = Jost({
   variable: '--font-jost',
   subsets: ['latin'],
+  weight: ['400', '500'],
 });
 
 export const metadata: Metadata = {
@@ -37,8 +39,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${playfairDisplay.variable} ${jost.variable} bg-[#100917] font-sans antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${playfairDisplay.variable} ${jost.variable} bg-night relative font-sans antialiased`}
       >
+        <BackgroundVideo />
         {children}
       </body>
     </html>
