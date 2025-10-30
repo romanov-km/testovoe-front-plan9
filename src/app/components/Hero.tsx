@@ -12,10 +12,10 @@ export default function Hero() {
         </h2>
 
         <div className="flex w-[660px] gap-[32px]">
-          <button className="font-jost flex h-[55px] w-[315px] items-center justify-center rounded-[12px] [background-image:linear-gradient(#FF62C5,#FF62C5),url('/neon-seeker.png')] bg-cover bg-center px-[15px] text-[18px] font-semibold text-white [background-blend-mode:screen]">
+          <button className="font-jost flex h-[55px] w-[315px] items-center justify-center rounded-[12px] [background-image:linear-gradient(#FF62C5,#FF62C5),url('/neon-seeker.svg')] bg-cover bg-center px-[15px] text-[18px] font-semibold text-white [background-blend-mode:screen]">
             I am a Seeker → Begin my journey
           </button>
-          <button className="font-jost flex h-[55px] w-[315px] items-center justify-center rounded-[12px] [background-image:linear-gradient(#626AFF,#626AFF),url('/neon-healer.png')] bg-cover bg-center px-[15px] text-[18px] font-semibold text-white [background-blend-mode:screen]">
+          <button className="font-jost flex h-[55px] w-[315px] items-center justify-center rounded-[12px] [background-image:linear-gradient(#626AFF,#626AFF),url('/neon-healer.svg')] bg-cover bg-center px-[15px] text-[18px] font-semibold text-white [background-blend-mode:screen]">
             I am a Healer → Begin my journey
           </button>
         </div>

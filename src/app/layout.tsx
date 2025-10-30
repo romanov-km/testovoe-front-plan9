@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Geist, Geist_Mono, Playfair_Display, Jost } from 'next/font/google';
 import './globals.css';
 import BackgroundVideo from './components/BackGroundVideo';
+import Diagram from './components/Diagram';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -23,7 +24,7 @@ const playfairDisplay = Playfair_Display({
 const jost = Jost({
   variable: '--font-jost',
   subsets: ['latin'],
-  weight: ['400', '500'],
+  weight: ['400', '500', '600'],
 });
 
 export const metadata: Metadata = {
