@@ -9,7 +9,7 @@ type Props = {
 };
 
 export default function DiagramNode({ icon, label, variant, style, labelWidth }: Props) {
-  const text = 'font-serif text-white text-[28px] leading-[1.1]';
+  const text = 'font-playfair text-white text-[26px] font-semibold leading-[33.75px] tracking-[0]';
   const lay: Record<Variant, string> = {
     top: 'flex flex-col-reverse items-center gap-[22.5px] text-center',
     bottom: 'flex flex-col items-center gap-[22.5px] text-center',

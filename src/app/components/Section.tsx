@@ -11,7 +11,7 @@ export default function Section({ children, pt = 100, pb = 100, pl = 146, pr = 1
       className="relative"
       style={{ paddingTop: pt, paddingBottom: pb, paddingLeft: pl, paddingRight: pr }}
     >
-      {children}
+      <div className="max-w-[1200px]">{children}</div>
     </section>
   );
 }

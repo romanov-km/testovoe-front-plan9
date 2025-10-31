@@ -13,7 +13,7 @@ export default function Diagram() {
         icon={<Image src="/spirit.svg" alt="" width={33} height={33} />}
         label="Spirit"
         variant="bottom"
-        style={{ left: '50%', top: '-53px', transform: 'translateX(-50%)' }}
+        style={{ left: '50%', top: '-57px', transform: 'translateX(-50%)' }}
       />
 
       {/* LEFT (Energy) — подпись слева */}
@@ -21,7 +21,7 @@ export default function Diagram() {
         icon={<Image src="/energy.svg" alt="" width={33} height={33} />}
         label="Energy"
         variant="right"
-        style={{ left: '-130px', top: '50%', transform: 'translateY(-50%)' }}
+        style={{ left: '-125px', top: '49%', transform: 'translateY(-46%)' }}
       />
 
       {/* RIGHT (A map of body) — подпись справа, фикс ширины + выравнивание */}
@@ -30,7 +30,7 @@ export default function Diagram() {
         label="A map of body"
         variant="left"
         labelWidth={95}
-        style={{ right: '-130px', top: '50%', transform: 'translateY(-50%)' }}
+        style={{ right: '-129px', top: '50%', transform: 'translateY(-50%)' }}
       />
 
       {/* BOTTOM (Mind) — подпись снизу */}
@@ -38,7 +38,7 @@ export default function Diagram() {
         icon={<Image src="/mind.svg" alt="" width={33} height={33} />}
         label="Mind"
         variant="top"
-        style={{ left: '50%', bottom: '-59px', transform: 'translateX(-50%)' }}
+        style={{ left: '50%', bottom: '-60px', transform: 'translateX(-50%)' }}
       />
 
       <CenterCard />
