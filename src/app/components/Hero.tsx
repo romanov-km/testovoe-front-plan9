@@ -14,12 +14,14 @@ export default function Hero() {
         <div className="mt-8 flex w-full flex-wrap gap-8">
           <button
             type="button"
+            aria-label="Begin journey as Seeker"
             className="font-jost flex h-[55px] max-w-[315px] min-w-[240px] flex-1 cursor-pointer items-center justify-center rounded-[12px] [background-image:linear-gradient(#FF62C5,#FF62C5),url('/neon-seeker.svg')] bg-cover bg-center px-[16px] py-[17.5] text-[18px] font-semibold text-white [background-blend-mode:screen] hover:brightness-110 focus-visible:ring-2 focus-visible:ring-white/60 focus-visible:outline-none"
           >
             I am a Seeker → Begin my journey
           </button>
           <button
             type="button"
+            aria-label="Begin journey as Healer"
             className="font-jost flex h-[55px] max-w-[313px] min-w-[240px] flex-1 cursor-pointer items-center justify-center rounded-[12px] [background-image:linear-gradient(#626AFF,#626AFF),url('/neon-healer.svg')] bg-cover bg-center px-[16px] py-[17.5] text-[18px] font-semibold text-white [background-blend-mode:screen] hover:brightness-110 focus-visible:ring-2 focus-visible:ring-white/60 focus-visible:outline-none"
           >
             I am a Healer → Begin my journey

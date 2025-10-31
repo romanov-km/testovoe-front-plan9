@@ -4,8 +4,8 @@ import CenterCard from './CenterCard';
 
 export default function Diagram() {
   return (
-    <div className="relative h-[682px] w-[663px]">
-      <Image src="/circle.svg" alt="diagram" fill className="object-contain" />
+    <div className="relative mx-auto aspect-[663/682] w-full max-w-[663px] origin-center scale-90 md:scale-100">
+      <Image src="/circle.svg" alt="" aria-hidden fill className="object-contain" />
 
       {/* TOP (Spirit) — подпись сверху */}
 

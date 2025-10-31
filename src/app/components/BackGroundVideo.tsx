@@ -10,6 +10,8 @@ export default function BackgroundVideo() {
         muted
         playsInline
         preload="none"
+        aria-hidden
+        role="presentation"
         data-video="0"
       />
       {/* затемняющий слой */}

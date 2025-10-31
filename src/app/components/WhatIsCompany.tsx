@@ -4,7 +4,7 @@ import Section from './Section';
 // WhatIsCompany.tsx
 export default function WhatIsCompany() {
   return (
-    <Section pt={0} pb={0} pl={146} pr={364}>
+    <Section pt={0} pb={0} pl={146} pr={0}>
       <div className="mx-auto flex max-w-[1200px] flex-col md:flex-row">
         {/* Левая колонка — заголовок и текст */}
         <div className="min-w-0 flex-1">
@@ -22,7 +22,7 @@ export default function WhatIsCompany() {
 
         {/* Правая колонка с диаграммой */}
         <div className="relative min-w-0 flex-1 md:pt-4">
-          <div className="relative z-10 md:-mt-20 md:-ml-16 lg:-mt-28 lg:-ml-28 xl:mt-19 xl:-ml-60">
+          <div className="relative z-[-10] md:-mt-20 md:-ml-16 lg:-mt-28 lg:-ml-90 xl:mt-19 xl:-ml-104">
             <Diagram />
           </div>
         </div>

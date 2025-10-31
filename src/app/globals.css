@@ -8,3 +8,19 @@
 
   --color-night: #100917;
 }
+
+.section {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media (min-width: 1368px) {
+  .section {
+    padding-top: var(--pt, 100px);
+    padding-bottom: var(--pb, 100px);
+    padding-left: var(--pl, 146px);
+    padding-right: var(--pr, 146px);
+  }
+}
